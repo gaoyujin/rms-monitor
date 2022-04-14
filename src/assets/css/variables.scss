@@ -1,0 +1,157 @@
+$base-space: 10px;
+$margin-base: 10px;
+$margin-small: 5px;
+$margin-medium: $margin-base + $margin-small;
+$margin-large: 20px;
+
+$padding-base: 10px;
+$padding-small: 5px;
+$padding-medium: $padding-base + $padding-small;
+$padding-large: 20px;
+//==brand
+//
+//##
+$brand-primary: var(--color-primary);
+// $brand-default: $brand-primary-darker;
+$brand-success: #00a737;
+$brand-info: #5bc0de;
+$brand-warning: #fa9500;
+$brand-danger: #f00606;
+$brand-asistant: #999999;
+$brand-auxiliary: #fdca40;
+
+// $brand-primary-lighter: fade($brand-primary, 15%);
+// $brand-primary-darker: fade($brand-primary, 80%);
+
+$color-primary: $brand-primary;
+$color-primary-static: #4a90e2;
+$color-auxiliary: $brand-auxiliary;
+$color-success: $brand-success;
+$color-warning: $brand-warning;
+$color-danger: $brand-danger;
+$color-info: #999;
+
+$color-primary-1: var(--color-primary-1);
+$color-primary-1-static: mix(#fff, $color-primary-static, 10%);
+$color-primary-2: var(--color-primary-2);
+$color-primary-2-static: mix(#fff, $color-primary-static, 20%);
+$color-primary-3: var(--color-primary-3);
+$color-primary-3-static: mix(#fff, $color-primary-static, 30%);
+$color-primary-4: var(--color-primary-4);
+$color-primary-4-static: mix(#fff, $color-primary-static, 40%);
+$color-primary-5: var(--color-primary-5);
+$color-primary-5-static: mix(#fff, $color-primary-static, 50%);
+$color-primary-6: var(--color-primary-6);
+$color-primary-6-static: mix(#fff, $color-primary-static, 60%);
+$color-primary-7: var(--color-primary-7);
+$color-primary-7-static: mix(#fff, $color-primary-static, 70%);
+$color-primary-8: var(--color-primary-8);
+$color-primary-8-static: mix(#fff, $color-primary-static, 80%);
+$color-primary-9: var(--color-primary-9);
+$color-primary-9-static: mix(#fff, $color-primary-static, 90%);
+
+$color-primary-1-b: var(--color-primary-1-b);
+$color-primary-1-b-static: mix(#000, $color-primary-static, 10%);
+$color-primary-2-b: var(--color-primary-2-b);
+$color-primary-2-b-static: mix(#000, $color-primary-static, 20%);
+$color-primary-3-b: var(--color-primary-3-b);
+$color-primary-3-b-static: mix(#000, $color-primary-static, 30%);
+$color-primary-4-b: var(--color-primary-4-b);
+$color-primary-4-b-static: mix(#000, $color-primary-static, 40%);
+$color-primary-5-b: var(--color-primary-5-b);
+$color-primary-5-b-static: mix(#000, $color-primary-static, 50%);
+$color-primary-6-b: var(--color-primary-6-b);
+$color-primary-6-b-static: mix(#000, $color-primary-static, 60%);
+$color-primary-7-b: var(--color-primary-7-b);
+$color-primary-7-b-static: mix(#000, $color-primary-static, 70%);
+$color-primary-8-b: var(--color-primary-8-b);
+$color-primary-8-b-static: mix(#000, $color-primary-static, 80%);
+$color-primary-9-b: var(--color-primary-9-b);
+$color-primary-9-b-static: mix(#000, $color-primary-static, 90%);
+
+$color-text-primary: var(--color-text-primary);
+$color-text-primary-static: #333;
+$color-text-regular: var(--color-text-regular);
+$color-text-regular-static: #666;
+$color-text-secondary: var(--color-text-secondary);
+$color-text-secondary-static: #999;
+
+$color-background: var(--color-background);
+$color-background-static: #f9f9f9;
+$color-foreground: var(--color-foreground);
+$color-foreground-static: #fff;
+
+$border-color-base: var(--border-color-base);
+$border-color-base-static: #ccc;
+$border-color-lighter: var(--border-color-lighter);
+$border-color-lighter-static: #ebeef5;
+$border-radius-base: 4px;
+
+$disabled-background: var(--disabled-background);
+$disabled-background-static: #f5f7fa;
+$disabled-border-color-base: var(--disabled-border-color-base);
+$disabled-border-color-base-static: #dcdfe6;
+$disabled-color: var(--disabled-color);
+$disabled-color-static: #c0c4cc;
+
+//==font/height
+//
+//##
+$font-size-base: 14px; //1.1428571428571428rem
+
+//== body
+//
+//##
+$body-font-color: $color-text-primary;
+$body-font-color-static: $color-text-primary-static;
+$body-font-size: $font-size-base;
+$body-background-color: $color-background;
+$body-min-width: 600px;
+
+//== scrollbar
+//
+//##
+$scrollbar-bg: #cfcfcf;
+$scrollbar-width: 5px;
+
+//==portal
+//
+
+$module-orange: linear-gradient(to top right, #f76b1c, #fad961);
+$module-green: linear-gradient(to top right, #3c8a1c, #90c630);
+$module-pink: linear-gradient(to top right, #e93466, #ff81ed);
+$module-purple: linear-gradient(to top right, #6524d4, #b137c8);
+$module-blue: linear-gradient(to top right, #2379d3, #75edff);
+$module-default: linear-gradient(to top right, #f7bb1c, #faf161);
+
+//==table
+//
+//##
+$table-thead-height: 56px;
+$table-tbody-height: 46px;
+$table-thead-font-size: $font-size-base;
+$table-tbody-font-size: $font-size-base;
+$table-thead-bg: #dedbdb;
+$table-tbody-hover-bg: #edf5ff;
+
+$table-header-background-color: var(--table-header-background-color);
+$table-header-background-color-static: #f1f1f1;
+$table-tr-even-background-color: var(--table-tr-even-background-color);
+$table-tr-even-background-color-static: #f5f5f5;
+//==siderbar
+//
+//##
+$siderbar-hover-bg: $brand-primary;
+$siderbar-active-bg: $brand-primary;
+$siderbar-active-color: #fff;
+$siderbar-active-border-left-color: #f7b320;
+$siderbar-font-size: 16px;
+
+//==form
+//
+//##
+$form-font-size: $font-size-base;
+
+//dialog
+$dialog-footer-bg: $color-background;
+$dialog-footer-bg-static: $color-background-static;

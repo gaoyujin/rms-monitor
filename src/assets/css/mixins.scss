@@ -1,0 +1,47 @@
+/*包含页面多个less Mixins的集合*/
+@mixin utils-user-select($value) {
+  -moz-user-select: $value;
+  -webkit-user-select: $value;
+  -ms-user-select: $value;
+}
+//多行裁剪 $axLine 默认裁剪2行，可变参数
+@mixin line-clamp($MaxLine: 2) {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: $MaxLine;
+  -webkit-box-orient: vertical;
+}
+
+@mixin text-ellipsis() {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin color($var) {
+  color: $var;
+}
+
+@mixin bgcolor($var) {
+  background-color: $var;
+}
+
+.box-shadow-light--bottom {
+  box-shadow: -2px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow--bottom {
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow--center {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.el-table-self--header {
+  background: "#f8f8f9";
+  color: "#606266";
+}
